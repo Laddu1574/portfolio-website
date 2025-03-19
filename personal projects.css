@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: auto;
+  padding-bottom: 0.8rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.heading {
+  color: white;
+  font-size: 30px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 85px;
+}
+.projects .projects-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.projects-row .projects-column {
+  flex: 1 1 40rem;
+}
+.projects-box .projects-content {
+  position: relative;
+  padding-left: 2rem;
+}
+.projects-content .content {
+  position: relative;
+  padding: 1rem;
+  border: 0.2rem solid #0ef;
+  border-radius: 0.6rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+.projects-content .content h3 {
+  font-size: 1.9rem;
+}
+.projects-content .content p {
+  font-size: 16px;
+  padding-top: 0.5rem;
+}
+a {
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 600px) {
+  .sub {
+    margin-top: -5rem;
+    margin-bottom: 70px;
+  }
+  .content p,
+  a {
+    font-size: 1.1rem;
+  }
+  .certificates-content {
+    margin-right: 2rem;
+  }
+  .heading {
+    margin-left: 25px;
+  }
+  .content {
+    margin-right: 20px;
+  }
+}
